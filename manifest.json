@@ -1,0 +1,26 @@
+{
+  "name":"Kinley Image Viewer",
+  "description":"View Kinley on the go!",
+  "version":"1.0",
+  "manifest_version":3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage","activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "/images/kin16.png",
+        "32": "/images/kin32.png",
+        "64": "/images/kin64.png",
+        "128": "/images/kin128.png"
+      }
+  },
+  "icons": {
+    "16": "/images/kin16.png",
+    "32": "/images/kin32.png",
+    "64": "/images/kin64.png",
+    "128": "/images/kin128.png"
+ }
+
+}
